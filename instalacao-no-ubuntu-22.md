@@ -177,7 +177,7 @@ nano /etc/default/kubelet
 2\. Adicione a linha abaixo:
 
 ```bash
-Environment="KUBELET_EXTRA_ARGS=--node-ip=IP_DA_SUA_INTERFACE"
+Environment="--node-ip=IP_DA_SUA_INTERFACE"
 ```
 
 *Substituia "IP_DA_SUA_INTERFACE" pelo IP desejado.*
